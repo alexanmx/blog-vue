@@ -1,27 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <CabecalhoSite />
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <RouterView name="Content"></RouterView>
+            </div>
+            <div class="col-lg-3 px-5 px-lg-0">
+                <BarraLateral></BarraLateral>
+            </div>
+        </div>
+    </main>
+    <RodapeSite />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import CabecalhoSite from '@/components/layout/CabecalhoSite.vue';
+import RodapeSite from '@/components/layout/RodapeSite.vue';
+import BarraLateral from '@/components/layout/BarraLateral.vue';
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-});
+export default {
+    name: 'App',
+    components: {
+        CabecalhoSite,
+        RodapeSite,
+        BarraLateral
+    }
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

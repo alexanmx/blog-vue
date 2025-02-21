@@ -1,0 +1,51 @@
+{
+  "dadosSite": {
+    "titulo": "Meu Blog",
+    "descricao": "Blog sobre Blog",
+    "logo": "/images/logo.png"
+  },
+  "menuCabecalho": [
+    {
+      "id": 1,
+      "nome": "Home",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "nome": "Artigos",
+      "url": "/artigos"
+    },
+    {
+      "id": 3,
+      "nome": "Cursos",
+      "url": "/cursos"
+    },
+    {
+      "id": 4,
+      "nome": "Livros",
+      "url": "/livros"
+    },
+    {
+      "id": 5,
+      "nome": "Loja",
+      "url": "/loja"
+    }
+  ],
+  "menuRodape": [
+    {
+      "id": 1,
+      "nome": "Política de Privacidade",
+      "url": "/politica"
+    },
+    {
+      "id": 2,
+      "nome": "Sobre",
+      "url": "/artigos"
+    },
+    {
+      "id": 3,
+      "nome": "Contato",
+      "url": "/contato"
+    }
+  ]
+}
