@@ -2,28 +2,77 @@
     "postsRecentes": [
       {
         "id": 1,
-        "nome": "Home",
-        "url": "/"
+        "titulo": "Home",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/",
+        "dataPublicacao": "2021-01-01"
       },
       {
         "id": 2,
-        "nome": "Artigos",
-        "url": "/artigos"
+        "titulo": "Artigos",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/artigos",
+        "dataPublicacao": "2021-01-01"
       },
       {
         "id": 3,
-        "nome": "Cursos",
-        "url": "/cursos"
+        "titulo": "Cursos",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/cursos",
+        "dataPublicacao": "2021-01-01"
+      }
+    ],
+    "ultimosPosts": [
+      {
+        "id": 1,
+        "titulo": "Home",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/",
+        "dataPublicacao": "2021-01-01"
+      },
+      {
+        "id": 2,
+        "titulo": "Artigos",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/artigos",
+        "dataPublicacao": "2021-01-01"
+      },
+      {
+        "id": 3,
+        "titulo": "Cursos",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/cursos",
+        "dataPublicacao": "2021-01-01"
       },
       {
         "id": 4,
-        "nome": "Livros",
-        "url": "/livros"
+        "titulo": "Livros",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/livros",
+        "dataPublicacao": "2021-01-01"
       },
       {
         "id": 5,
-        "nome": "Loja",
-        "url": "/loja"
+        "titulo": "Loja",
+        "resumo": "",
+        "thumbnail": "/images/logo.png",
+        "alt": "Logo",
+        "url": "/loja",
+        "dataPublicacao": "2021-01-01"
       }
     ]
   }

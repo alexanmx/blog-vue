@@ -9,6 +9,13 @@ const routes = [
     components: {
       Content: () => import("@/views/HomeView.vue"),
     },
+  },
+  {
+    path: "/:slug",
+    name: "PostView",
+    components: {
+      Content: () => import("@/views/PostView.vue"),
+    },
   }
 ];
 
